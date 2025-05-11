@@ -1,0 +1,159 @@
+.footer {
+    background-color: #0f172a;
+    color: #ccc;
+    padding: 4rem 2rem 2rem;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .brand {
+    flex: 1 1 260px;
+  }
+  
+  .brand img {
+    width: 130px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .brand p {
+    color: #d1d5db;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  .columns {
+    display: flex;
+    gap: 4rem;
+    flex: 2 1 540px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .columns > div {
+    min-width: 180px;
+  }
+  
+  .columns h4 {
+    color: #fff;
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .columns ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .columns li {
+    margin: 0.7rem 0;
+    color: #d1d5db;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .columns li:hover {
+    color: #fff;
+  }
+  
+  .subscribe h4 {
+    color: #fff;
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subscribe p {
+    color: #d1d5db;
+    font-size: 0.98rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .input {
+    padding: 0.7rem 1rem;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background-color: #1e293b;
+    color: #fff;
+    width: 170px;
+  }
+  
+  .button {
+    padding: 0.7rem 1.3rem;
+    border-radius: 0 8px 8px 0;
+    border: none;
+    background: #3b82f6;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s;
+  }
+  
+  .button:hover {
+    background: #2563eb;
+  }
+  
+  .bottom {
+    border-top: 1px solid #1e293b;
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .bottom p {
+    color: #d1d5db;
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .socials {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  
+  .socials img {
+    width: 32px;
+    height: 32px;
+    filter: brightness(0.9);
+    transition: filter 0.2s;
+  }
+  
+  .socials img:hover {
+    filter: brightness(1.2);
+  }
+  
+  @media (max-width: 900px) {
+    .top {
+      flex-direction: column;
+      gap: 3rem;
+    }
+    .columns {
+      gap: 2.5rem;
+    }
+  }
+  

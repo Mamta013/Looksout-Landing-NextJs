@@ -1,0 +1,104 @@
+.section {
+    padding: 4rem 2rem;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    color: #888;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #fafbfc;
+    border-radius: 1.25rem;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.05);
+    overflow: hidden;
+    text-align: left;
+    max-width: 350px;
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    background: #f0f0f0;
+  }
+  
+  .content {
+    padding: 1.5rem 1.5rem 1.25rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .cardTitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #222;
+  }
+  
+  .description {
+    color: #888;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    min-height: 48px;
+  }
+  
+  .authorRow {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: auto;
+  }
+  
+  .avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  }
+  
+  .authorName {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #222;
+    line-height: 1.1;
+  }
+  
+  .authorRole {
+    font-size: 0.9rem;
+    color: #aaa;
+    line-height: 1.1;
+  }
+  
+  .date {
+    margin-left: auto;
+    color: #888;
+    font-size: 0.95rem;
+    font-weight: 400;
+  }
+  
