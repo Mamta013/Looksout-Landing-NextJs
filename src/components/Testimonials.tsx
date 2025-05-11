@@ -9,7 +9,7 @@ const Testimonials = () => {
         </div>
         <blockquote className={styles.testimonialQuote}>
           <p>
-            Thank you for making it painless, pleasant and most of all hassle free! I love LookScout. I can't say enough about LookScout. Great job, I will definitely be ordering again!
+            Thank you for making it painless, pleasant and most of all hassle free! I love LookScout. I can&apos;t say enough about LookScout. Great job, I will definitely be ordering again!
           </p>
         </blockquote>
         <div className={styles.profile}>
